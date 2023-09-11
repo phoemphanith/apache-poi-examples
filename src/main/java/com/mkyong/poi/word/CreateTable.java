@@ -33,7 +33,7 @@ public class CreateTable {
             row3.getCell(2).setText("Third Row, Third Column");
 
             // save to .docx file
-            try (FileOutputStream out = new FileOutputStream("c:\\test\\table.docx")) {
+            try (FileOutputStream out = new FileOutputStream("D:\\table.docx")) {
                 doc.write(out);
             }
 
